@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url(bg.jpg);
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size: max(1000px, 100vw);
+    height: 70vh;
+    position: relative;
+}
+main .box{
+    background-color: black;
+    opacity: 0.8;
+    height: 70vh;
+    width: 100%;
+    position:absolute;
+    top: 0;
+}
+nav{
+    max-width: 60vw;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    height: 62px;
+}
+nav img{
+    margin-top: 10px;
+    width: 150px;
+    position: relative;
+    z-index: 10;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.hero{
+    height:calc(100% - 62px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    font-family: "Archivo Black", sans-serif;
+    gap: 23px;
+    padding: 0 30px;
+}
+.hero> :nth-child(1){
+    font-weight: bolder;
+    font-size: 48px;
+}
+.hero> :nth-child(2){
+    font-weight: 400px;
+    font-size: 24px;
+}
+.hero> :nth-child(3){
+    font-weight: 400px;
+    font-size: 20px;
+}
+.separation{
+    height: 8px;
+    background-color: rgb(56, 56, 56);
+}
+.btn{
+    padding: 10px;
+    font-weight: 400;
+    background: rgba(23, 23, 23, 0);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.btn-red-sm{
+    background-color: red;
+    color: white;
+    width: 80px;
+    margin-left: 25px;
+}
+.btn-red{
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    padding: 15px;
+    font-size: 20px;
+}
+.main input{
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 4px;
+    background: rgba(23,23,23,0.8);
+    color: white;
+    width: 400px;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+}
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: auto;
+}
+.secImg{
+    position: relative;
+}
+.secImg img{
+    width: 450px;
+    position: relative;
+    z-index: 10;
+}
+.secImg video{
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 400px;
+}
+section.first > div{
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+    flex-wrap: wrap;
+}
+section.first > div :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+}
+section.first > div :nth-child(2){
+    font-size: 24px;
+}
+.faq h2{
+    text-align: center;
+}
+.faq{
+    background: black;
+    color: white;
+    padding: 34px;
+}
+.faqbox:hover{
+    background-color: rgb(48, 48, 48);
+}
+.faqbox{
+    transition: all 1s ease-out;
+    background-color: gray;
+    justify-content: space-between;
+    display: flex;
+    padding: 17px;
+    max-width: 60vw;
+    margin: 10px auto;
+    cursor: pointer;
+}
+footer{
+    color: white;
+    margin: auto;
+    max-width: 60vw;
+    padding: 14px;
+}
+.footer a {
+    font-size: 14px;
+    color: white;
+}
+footer .Questions{
+    padding: 34px 0;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+
